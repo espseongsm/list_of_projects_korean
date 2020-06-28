@@ -1,5 +1,7 @@
 # List of Projects
 
+English version : https://github.com/espseongsm/list_of_projects
+
 ## [트위터의 이슈 트윗 감지 모델 | Buzz Prediction in Twitter, ](https://github.com/espseongsm/Buzz_prediction_on_twitter)
 
 - Language: R
