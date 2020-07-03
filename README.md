@@ -1,5 +1,7 @@
 # List of Projects
 
+**아래의 제목들을 클릭하시면 자세한 내용을 보실 수 있습니다.** 
+
 English version : https://github.com/espseongsm/list_of_projects
 
 ## [트위터의 이슈 트윗 감지 모델 | Buzz Prediction in Twitter, ](https://github.com/espseongsm/Buzz_prediction_on_twitter)
@@ -61,7 +63,7 @@ English version : https://github.com/espseongsm/list_of_projects
   - Library: ggplot2, glmnet, randomForest, reshape, gridExtra, dplyr, MASS
 - Supervised learning: classification
 - Models: LASSO, Ridge, Logistic regression
-- 파킨슨 병의 진단을 용이하도록 노인들의 음성정보만으로 진단할 수 있는 3가지의 classification 모델을 개발
+- 파킨슨 병의 진단이 용이하도록 노인들의 음성정보만으로 진단할 수 있는 3가지의 classification 모델을 개발
 - 하이퍼파라미터를 최적화하여 모델의 예측성능을 높임 (cross-validation | 7% improvement)
 - 모델의 성능과 계산 시간을 시각적으로 분석하여 최적의 classification model을 평가
 - 파킨슨 병의 진단에 영향을 미치는 중요 변수를 파악
