@@ -4,6 +4,11 @@
 
 English version : https://github.com/espseongsm/list_of_projects
 
+## 데이터 전처리 - Pandas and SQL
+
+- [Pandas를 이용한 LeetCode Database 문제 솔루션](https://github.com/espseongsm/LeetCodeDatabaseQuestions/blob/master/SolutionsForLeetCodeDatabaseSolutions.ipynb)
+
+- [Pandas 및 SQL을 이용한 HackerRank SQL 문제 솔루션](https://github.com/espseongsm/HackerRankSQLSolutions/blob/main/SolutionsForHackerRankSQL.ipynb)
 ## [트위터의 이슈 트윗 감지 모델 | Buzz Prediction in Twitter, ](https://github.com/espseongsm/Buzz_prediction_on_twitter)
 
 - Language: R
