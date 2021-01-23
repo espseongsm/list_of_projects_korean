@@ -2,14 +2,36 @@
 
 **아래의 제목들을 클릭하시면 자세한 내용을 보실 수 있습니다.** 
 
-English version : https://github.com/espseongsm/list_of_projects
+English version : [https://github.com/espseongsm/list_of_projects](https://github.com/espseongsm/list_of_projects)
 
 ## 데이터 전처리 - Pandas and SQL
 
 - [Pandas를 이용한 LeetCode Database 문제 솔루션](https://github.com/espseongsm/LeetCodeDatabaseQuestions/blob/master/SolutionsForLeetCodeDatabaseSolutions.ipynb)
-
 - [Pandas 및 SQL을 이용한 HackerRank SQL 문제 솔루션](https://github.com/espseongsm/HackerRankSQLSolutions/blob/main/SolutionsForHackerRankSQL.ipynb)
-## [트위터의 이슈 트윗 감지 모델 | Buzz Prediction in Twitter, ](https://github.com/espseongsm/Buzz_prediction_on_twitter)
+
+## [세포이미지를 통한 핵 감지 모델 | Nucleus Detection in Cell](https://github.com/espseongsm/Nucleus_Detection_in_Cell) 
+
+- Language: R
+  - Library: ggplot2, glmnet, randomForest, reshape, gridExtra, dplyr, MASS, e1071
+- Supervised learning: classification
+- Models: LASSO, Ridge, Elastic net, Random forest, Logistic regression
+- DNA 연구에 도움이 되도록 세포의 셀 보유 유무를 예측할 수 있는 5가지의 image classification 모델을 개발 후 최적의 모델 선정 (98.5% 정확도 | 핵의 모양을 인식) 
+- 다양한 방법을 통하여 에측 성능을 높임 (oversampling, 하이퍼파라미터 튜닝, regularization | 15% improvement)
+- ggplot library (R)를 통하여 가장 효과적인 모델을 시각적으로 분석
+- AB 테스팅을 통하여 예측성능을 보장하면서 데이터 크기를 줄임 (45% reduction in training time)
+
+## [음성정보를 통한 파킨슨 병 진단 모델 | Parkinson’s Disease Diagnosis from Acoustic Features](https://github.com/espseongsm/Parkinson_Disease_Diagnosis)
+
+- Language: R
+  - Library: ggplot2, glmnet, randomForest, reshape, gridExtra, dplyr, MASS
+- Supervised learning: classification
+- Models: LASSO, Ridge, Logistic regression
+- 파킨슨 병의 진단이 용이하도록 노인들의 음성정보만으로 진단할 수 있는 3가지의 classification 모델 개발 후 최적의 모델 선정
+- 하이퍼파라미터를 최적화하여 모델의 예측성능을 높임 (cross-validation | 7% improvement)
+- 모델의 성능과 계산 시간을 시각적으로 분석하여 최적의 classification model을 평가
+- 파킨슨 병의 진단에 영향을 미치는 중요 변수를 파악
+
+## [트위터의 이슈 트윗 감지 모델 | Buzz Prediction in Twitter](https://github.com/espseongsm/Buzz_prediction_on_twitter)
 
 - Language: R
   - Library: ggplot2, glmnet, randomForest, reshape, gridExtra, dplyr, MASS
@@ -50,25 +72,3 @@ English version : https://github.com/espseongsm/list_of_projects
 - Language: Python
 - Service: AWS EC2, Docker, Elasticsearch, Kibana
 - 뉴욕시의 주차 위반 패턴을 시각화 (Top 5 위반, 시간 및 지역별 위반 트렌드, 범칙금 환원 | Docker, AWS EC2, Elasticsearch, Kibana)
-  
-## [세포이미지를 통한 핵 감지 모델 | Nucleus Detection in Cell](https://github.com/espseongsm/Nucleus_Detection_in_Cell) 
-
-- Language: R
-  - Library: ggplot2, glmnet, randomForest, reshape, gridExtra, dplyr, MASS, e1071
-- Supervised learning: classification
-- Models: LASSO, Ridge, Elastic net, Random forest, Logistic regression
-- DNA 연구에 도움이 되도록 세포의 셀 보유 유무를 예측할 수 있는 5가지의 image classification 모델을 개발 (98.5% 정확도 | 핵의 모양을 인식) 
-- 다양한 방법을 통하여 에측 성능을 높임 (oversampling, 하이퍼파라미터 튜닝, regularization | 15% improvement)
-- ggplot library (R)를 통하여 가장 효과적인 모델을 시각적으로 분석
-- AB 테스팅을 통하여 예측성능을 보장하면서 데이터 크기를 줄임 (45% reduction in training time)
-
-## [음성정보를 통한 파킨슨 병 진단 모델 | Parkinson’s Disease Diagnosis from Acoustic Features](https://github.com/espseongsm/Parkinson_Disease_Diagnosis)
-
-- Language: R
-  - Library: ggplot2, glmnet, randomForest, reshape, gridExtra, dplyr, MASS
-- Supervised learning: classification
-- Models: LASSO, Ridge, Logistic regression
-- 파킨슨 병의 진단이 용이하도록 노인들의 음성정보만으로 진단할 수 있는 3가지의 classification 모델을 개발
-- 하이퍼파라미터를 최적화하여 모델의 예측성능을 높임 (cross-validation | 7% improvement)
-- 모델의 성능과 계산 시간을 시각적으로 분석하여 최적의 classification model을 평가
-- 파킨슨 병의 진단에 영향을 미치는 중요 변수를 파악
